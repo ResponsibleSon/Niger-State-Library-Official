@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>State Library</title>
+  <link rel="stylesheet" href="State-Main-styles.css">
+</head>
+<body>
+  <!--Header Contents-->
+  <header>
+    <div class="nav-toggle">
+      <button class="header-buttons js-navToggle" onclick="
+      toggleNav();
+      ">≣</button>
+    </div>
+
+    <div class="app-name">
+      <p>Niger State E-Library</p>
+    </div>
+
+    <div class="settings-Share">
+      <button class="header-buttons">⨷</button>
+      <button class="header-buttons">⋊</button>
+    </div>
+  </header>
+  <!--Main contents-->
+  <main onclick="
+  returnNav();
+  ">
+    <div class="divOfBoxes">
+      <div class="boxes">
+        <img src="pictures/SL-9.jpeg.jpg">
+      </div>
+      <div class="boxes">
+        <img src="pictures/SL-10.jpeg.jpg">
+      </div>
+    </div>
+
+    <div class="divOfBoxes">
+      <div class="boxes">
+        <img src="pictures/SL-2.jpeg.jpg">
+      </div>
+      <div class="boxes">
+        <img src="pictures/SL-3.jpeg.jpg">
+      </div>
+    </div>
+
+    <div class="divOfBoxes">
+      <div class="boxes">
+        <img src="pictures/SL-4.jpeg.jpg">
+      </div>
+      <div class="boxes">
+        <img src="pictures/SL-5.jpeg.jpg">
+      </div>
+    </div>
+
+    <div class="divOfBoxes">
+      <div class="boxes">
+        <img src="pictures/SL-6.jpeg.jpg">
+      </div>
+      <div class="boxes">
+        <img src="pictures/SL-7.jpeg.jpg">
+      </div>
+    </div>
+
+      
+
+  </main>
+
+  <!--Nav contents-->
+  <nav class="navDiplayNone js-nav">
+    <div class="toggleNavOff">
+      <div>
+        <button class="removeNav js-navRemove" onclick="
+        returnNav();
+        ">↩</button>
+      </div>
+      <div>
+        <a href="State-Overview.html">
+          <button>※</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="navView">
+      <p>Niger State Library and Media Connect.</p>
+    </div>
+
+    <div class="navSections">
+      <div class="conts">
+        <p>⊞ Niger State Universities</p>
+      </div>
+      <div class="conts">
+        <p>⊞ Hotels And Resturants</p>
+      </div>
+    </div>
+
+    <div class="navSections">
+      <div class="conts">
+        <p>⊞ Niger State Minsitry</p>
+      </div>
+      <div class="conts">
+        <p>⊞ Niger State Emir and Royalties</p>
+      </div>
+    </div>
+
+    <div class="navSections">
+      <div class="conts">
+        <p>⊞ Event Videos and Clip</p>
+      </div>
+      <div class="conts">
+        <p>⊞ Settings</p>
+      </div>
+    </div>
+  </nav>
+
+  <footer></footer>
+
+  <script src="State-Library.js"></script>
+</body>
+</html>

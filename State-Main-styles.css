@@ -1,0 +1,150 @@
+  body{
+      display: flex;
+      justify-content: center;
+
+    }
+    /* Header styles*/
+    header{
+      background-color: black;
+      position: fixed;
+      height: 10%;
+      left: 2%;
+      right: 2%;
+      top: 2%;
+      border-radius: 12%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+    /* Nav toggle styles*/
+    .nav-toggle, .app-name, .settings-Share{
+      height: 80%;
+      color: goldenrod;
+    }
+    .nav-toggle{
+      color: white;
+      width: 18%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .app-name{
+      width: 60%;
+      color: white;
+      font-size: larger;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .settings-Share{
+      color: white;
+      width: 18%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .header-buttons{
+      background-color: black;
+      font-size: larger;
+      color: white;
+      border: none;
+      padding: 5% 5%;
+      border-radius: 5px;
+      margin-left: 2%;
+      cursor: pointer;
+    }
+    /* Nav styles*/
+    .navDiplayNone{
+      background-color: black;
+      position: fixed;
+      width: 70%;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      display: none;
+    }
+    .navDisplayAll{
+      /*
+      background-color: red;
+      position: fixed;
+      width: 50%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      */
+      display: block;
+    }
+    .toggleNavOff{
+      height: 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .toggleNavOff button{
+      background-color: transparent;
+      color: white;
+      border: 2px dotted white;
+      cursor: pointer;
+    }
+    .navView{
+      background-color: grey;
+      color: black;
+      font-style: italic;
+      height: 30%;
+      font-size: larger;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(pictures/SL-9.jpeg.jpg);
+    }
+    .navSections{
+      height: 15.5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: larger;
+      color: white;
+      margin-top: 1%;
+      border: 1px dotted goldenrod;
+    }
+    .conts{
+      margin-left: 2%;
+      cursor: pointer;
+    }
+    /* Main Styles*/
+    main{
+      margin-top: 20%;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+    }
+    .divOfBoxes{
+      height: 100%;
+      display: flex;
+      margin-top: 10px;
+    }
+    .boxes{
+      background-color: green;
+      width: 780px;
+      height: 270px;
+      border-radius: 10px;
+      margin-left: 10px;
+      border: 1px dotted goldenrod;
+      box-shadow: 2px 2px 3px rgba(0, 0 , 0, 0.5), -2px -2px 3px rgba(0, 0 , 0, 0.5);
+      transition: 0.25;
+    }
+    .boxes:hover{
+      width: 102%;
+    }
+    .boxes img{
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+    }
