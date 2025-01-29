@@ -6,7 +6,7 @@
   <title>State Library</title>
   <link rel="stylesheet" href="State-Main-styles.css">
 </head>
-<body>
+<body class="body js-body">
   <!--Header Contents-->
   <header>
     <div class="nav-toggle">
@@ -27,6 +27,8 @@
   <!--Main contents-->
   <main onclick="
   returnNav();
+  " class="js-main" onmousewheel="
+  noScrollMain();
   ">
     <div class="divOfBoxes">
       <div class="boxes">
@@ -69,7 +71,9 @@
   </main>
 
   <!--Nav contents-->
-  <nav class="navDiplayNone js-nav">
+  <nav class="navDiplayNone js-nav" class="js-main" onmousewheel="
+  noScrollMain();
+  ">
     <div class="toggleNavOff">
       <div>
         <button class="removeNav js-navRemove" onclick="
