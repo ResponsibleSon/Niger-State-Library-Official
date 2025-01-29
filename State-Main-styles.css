@@ -1,6 +1,7 @@
     body{
       display: flex;
       justify-content: center;
+      background-color: rgb(231, 215, 215);
     }
    .bodyDark{
       background-color: black;
@@ -18,6 +19,7 @@
       align-items: center;
       justify-content: center;
       margin-bottom: 0;
+      z-index: 100;
     }
     /* Nav toggle styles*/
     .nav-toggle, .app-name, .settings-Share{
@@ -68,6 +70,7 @@
       top: 0;
       bottom: 0;
       display: none;
+      z-index: 200;
     }
     .navDisplayAll{
       /*
