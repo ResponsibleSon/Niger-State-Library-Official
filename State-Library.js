@@ -14,3 +14,21 @@
       }
       console.log(true)
     }
+    function noScrollMain() {
+      const main = document.querySelector('.js-main');
+      const nav = document.querySelector('.js-nav');
+
+      if (nav.classList.contains('navDisplayAll')) {
+        main.classList.add('main-noScroll');
+      } else {
+        main.classList.remove('main-noScroll');
+      }
+      console.log('true')
+    }
+    function darkMode() {
+      const bodyDark = document.querySelector('.js-body');
+      if (bodyDark.classList.contains('body')) {
+        bodyDark.classList.add('bodyDark');
+      }
+    }
+    
